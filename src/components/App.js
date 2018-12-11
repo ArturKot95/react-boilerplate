@@ -1,5 +1,5 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import './App.css';
 
 class App extends React.Component {
   render() {
@@ -7,7 +7,7 @@ class App extends React.Component {
       <div className="app">
         <h1>Hello, {this.props.user}</h1>
       </div>
-    )
+    );
   }
 }
 
