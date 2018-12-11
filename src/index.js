@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './components/App.js';
+import AppRouter from './components/AppRouter.js';
 
 ReactDOM.render(
-  <App user={'Artur'} />,
+  <AppRouter />,
   document.getElementById('root')
 );
