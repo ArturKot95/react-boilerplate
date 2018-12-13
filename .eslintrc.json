@@ -17,6 +17,12 @@
     "plugins": [
         "react"
     ],
+    "settings": {
+        "react": {
+            "version": "16.6.3"
+        },
+        "eslint.packagemanager": "yarn"
+    },
     "rules": {
         "indent": [
             "error",
